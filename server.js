@@ -19,7 +19,7 @@ app.use(express.json({ extended: false }));
 app.use(express.urlencoded({ extended: false }));
 
 const dataBaseURL = process.env.DATABASE;
-  // 'mongodb+srv://daniel:dd2345@recipes-3k4ea.mongodb.net/test?retryWrites=true&w=majority';
+  // 'mongodb+srv://Spenser:ABCDE@recipes-3zo15.mongodb.net/test?retryWrites=true&w=majority';
 
 app.get('/api/recipes', recipeControllers.findAll);
 app.get('/api/recipes/:id', recipeControllers.findById);
